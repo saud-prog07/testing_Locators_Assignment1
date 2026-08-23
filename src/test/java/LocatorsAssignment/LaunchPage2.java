@@ -12,7 +12,7 @@ public class LaunchPage2 {
 
         driver.get("https://www.easycalculation.com/");
 
-        driver.findElement(By.id("googleSearchId")).sendKeys("Bangalore");
+        driver.findElement(By.id("googleSearchId")).sendKeys("Hyderabad");
 
         driver.findElement(By.xpath("//button[@class='search_button']")).click();
 
