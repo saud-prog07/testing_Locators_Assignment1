@@ -13,8 +13,8 @@ public class LaunchPage1 {
 
         driver.get("https://www.login.hiox.com/login?referrer=easycalculation.com");
 
-        driver.findElement(By.id("log_email")).sendKeys("Pranay");
-        driver.findElement(By.id("log_password")).sendKeys("pranay@gmail.com");
+        driver.findElement(By.id("log_email")).sendKeys("Saud");
+        driver.findElement(By.id("log_password")).sendKeys("Saud@gmail.com");
 
         System.out.println("Page Title: " + driver.getTitle());
 
